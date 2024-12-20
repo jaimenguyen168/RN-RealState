@@ -36,13 +36,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "ts.external.directory.path": "/Users/datnguyen/Library/Mobile Documents/com~apple~CloudDocs/Project_Shared/React_Native/RN-Real-Estate/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/(root)/(tabs)" />
     </key>
@@ -62,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734728895743</updated>
-      <workItem from="1734728897053" duration="1906000" />
+      <workItem from="1734728897053" duration="3270000" />
     </task>
     <servers />
   </component>
