@@ -30,7 +30,7 @@ const Filters = () => {
     <ScrollView
       horizontal
       showsHorizontalScrollIndicator={false}
-      className="mt-3 mb-2"
+      className="mt-3"
       ref={scrollViewRef}
     >
       {categories.map((item, index) => (
