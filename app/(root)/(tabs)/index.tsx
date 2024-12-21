@@ -3,18 +3,8 @@ import {Link} from "expo-router";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <View className="h-full flex items-center justify-center">
       <Text className="text-2xl font-rubik my-5">Welcome to Real Estate</Text>
-      <Link href="/sign-in">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/properties/1">Property 1</Link>
     </View>
   );
 }
