@@ -6,6 +6,7 @@ import images from "@/constants/images";
 import {settings} from "@/constants/data";
 import {useGlobalContext} from "@/lib/global-provider";
 import {logout} from "@/lib/appwrite";
+import seed from "@/lib/seed";
 
 const Profile = () => {
 
