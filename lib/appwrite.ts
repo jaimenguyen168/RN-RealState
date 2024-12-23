@@ -132,8 +132,6 @@ export async function getProperties({filter, query, limit}: {
       buildQuery.push(Query.limit(limit))
     }
 
-    console.log(buildQuery)
-
     const result = await databases.listDocuments(
       config.databaseId!,
       config.propertiesCollectionId!,
@@ -147,6 +145,20 @@ export async function getProperties({filter, query, limit}: {
   }
 }
 
+export async function getPropertyById({id}: {id: string}) {
+  try {
+    const result = await databases.getDocument(
+      config.databaseId!,
+      config.propertiesCollectionId!,
+      id
+    )
+
+    return result
+  } catch (error) {
+    console.error(error)
+    return null
+  }
+}
 
 
 
