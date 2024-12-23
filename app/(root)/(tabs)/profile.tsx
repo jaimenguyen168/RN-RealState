@@ -70,7 +70,7 @@ const Profile = () => {
 
         <View className="flex flex-col mt-5 border-t pt-5 border-primary-200">
           {settings.slice(2).map((item, index) => (
-            <SettingsItem icon={item.icon} title={item.title} />
+            <SettingsItem icon={item.icon} title={item.title} key={`settings-item-${index}`}/>
           ))}
         </View>
 
@@ -89,6 +89,8 @@ const Profile = () => {
 }
 
 export default Profile
+
+
 
 const SettingsItem = (
   {icon, title, onPress, textStyle, showArrow = true}
